@@ -10,9 +10,8 @@ export default function Register() {
   // Función para manejar el registro
   const handleRegister = () => {
     console.log('Registro exitoso:', { username, email, password });
-    // Aquí puedes agregar la lógica para enviar los datos al backend
-    // Por ejemplo, usando fetch para registrar al usuario
-    router.push('/'); // Navegar a la pantalla de inicio de sesión después del registro
+   
+    router.push('/'); 
   };
 
   return (
@@ -62,7 +61,7 @@ const styles = StyleSheet.create({
     flex: 1,
     justifyContent: 'center',
     padding: 20,
-    backgroundColor: '#54e3ea', // Fondo de color celeste
+    backgroundColor: '#54e3ea',
   },
   title: {
     fontSize: 24,
@@ -98,8 +97,8 @@ const styles = StyleSheet.create({
     fontSize: 14,
     textAlign: 'center',
   },
-  loginLink: { // Asegúrate de que este estilo esté definido
-    color: '#007AFF', // Color azul para el enlace de inicio de sesión
+  loginLink: { 
+    color: '#007AFF', 
     fontWeight: 'bold',
   },
 });

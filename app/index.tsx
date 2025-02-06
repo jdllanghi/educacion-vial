@@ -38,7 +38,7 @@ export default function Home() {
     </View>
   );
 }
-
+//[]
 const styles = StyleSheet.create({
   container: {
     flex: 1,
@@ -47,12 +47,14 @@ const styles = StyleSheet.create({
     padding: 20,
     backgroundColor: '#54e3ea',
   },
+  //T
   title: {
     fontSize: 24,
     fontWeight: 'bold',
     marginBottom: 20,
     textAlign: 'center',
   },
+  //$#
   input: {
     width: '100%',
     height: 40,
@@ -62,8 +64,9 @@ const styles = StyleSheet.create({
     paddingHorizontal: 10,
     marginBottom: 15,
     backgroundColor: '#c6d3e0',
-    color: '#ffffff',
+    color: '#fffff',
   },
+  //$
   link: {
     alignSelf: 'flex-end',
     marginBottom: 20,
@@ -72,6 +75,7 @@ const styles = StyleSheet.create({
     color: '#007AFF',
     fontSize: 14,
   },
+  //->
   button: {
     width: '100%',
     backgroundColor: '#007AFF',
@@ -85,6 +89,7 @@ const styles = StyleSheet.create({
     fontSize: 16,
     fontWeight: 'bold',
   },
+  //-#
   registerText: {
     fontSize: 14,
     textAlign: 'center',
